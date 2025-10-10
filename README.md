@@ -11,7 +11,7 @@
 This repository implements how to profit from a Maximal Extractable Value (MEV) attack against a Decentralized Exchange (DEX) on the Binance Smart Chain (BSC) network.
 - Since MEV development is directly tied to monetary gain, it's not easy to find resources that are actually helpful. I hope this resource will inspire other developers and add real value to their projects.
 - The project was developed and operational from January 2024 to May 2024.
-- For technical questions and feedback, please use the Issues page in the repository, and for all other inquiries, please contact ddonggeunn@gmail.com.
+- For technical questions and feedback, please use the Issues page in the repository, and for all other inquiries, please contact donggeunyu@icloud.com.
 
 <br>
 <br>
