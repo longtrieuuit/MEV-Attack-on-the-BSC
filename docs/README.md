@@ -95,16 +95,22 @@ Smart contract analysis, reviews, and summaries.
 | File | Description | Version |
 |------|-------------|---------|
 | **ARBITRAGESWAP_V2_FINAL_SUMMARY.md** | Final contract summary with all fixes | V2 FINAL |
+| **ARBITRAGESWAP_V2_FINAL_FLASH_LOAN_GUIDE.md** | 🔥 Complete flash loan integration guide with examples | V2 FINAL |
+| **V2_FINAL_FLASH_LOAN_ANALYSIS.md** | Analysis clarifying V2_FINAL had NO flash loan before | Analysis |
+| **FLASH_SWAP_VS_V2_FINAL_COMPARISON.md** | Detailed comparison: Flash Swap vs V2_FINAL | Comparison |
 | **CONTRACT_LOGIC_REVIEW.md** | Logic review with execution flow diagrams | V1 |
 | **COMPARISON_WITH_BEST_PRACTICES.md** | Comparison with industry MEV bots | Research |
 
 **Key Topics:**
 - Function signatures
 - Arbitrage execution logic
+- **Flash loan/flash swap** strategies (V2→V2, V2→V3, V3→V2, V3→V3)
+- **Zero capital** arbitrage
 - Sandwich attack patterns
 - Gas optimizations
 - Security best practices
 - Comparison with Flashbots, Haehnchen, etc.
+- Python integration examples
 
 ---
 
@@ -141,7 +147,8 @@ High-level project summaries and overviews.
 - Start with: `CRITICAL_BUGS_ALL_FUNCTIONS.md`
 
 **Looking for contract info?** → `docs/contracts/`
-- Start with: `ARBITRAGESWAP_V2_FINAL_SUMMARY.md`
+- Start with: `ARBITRAGESWAP_V2_FINAL_FLASH_LOAN_GUIDE.md` (🔥 NEW! Flash loan guide)
+- Or: `ARBITRAGESWAP_V2_FINAL_SUMMARY.md` (Contract summary)
 
 **Looking for project overview?** → `docs/overview/`
 - Start with: `PROJECT_SUMMARY_VI.md`
@@ -155,9 +162,9 @@ High-level project summaries and overviews.
 | Workflow | 5 | ~187 KB |
 | Technical | 3 | ~57 KB |
 | Bugs | 5 | ~82 KB |
-| Contracts | 3 | ~41 KB |
+| Contracts | 6 | ~126 KB |
 | Overview | 1 | ~13 KB |
-| **Total** | **17** | **~380 KB** |
+| **Total** | **20** | **~465 KB** |
 
 ---
 
@@ -184,7 +191,8 @@ High-level project summaries and overviews.
 1. **Start here:** If you're new, read `docs/overview/PROJECT_SUMMARY_VI.md` first
 2. **Understanding flow:** Read `docs/workflow/ARBITRAGE_FLOW_DETAILED.md`
 3. **Understanding bugs:** Read `docs/bugs/CRITICAL_BUGS_ALL_FUNCTIONS.md`
-4. **Deploying contract:** Read `docs/contracts/ARBITRAGESWAP_V2_FINAL_SUMMARY.md`
+4. **Using flash loans:** 🔥 Read `docs/contracts/ARBITRAGESWAP_V2_FINAL_FLASH_LOAN_GUIDE.md`
+5. **Deploying contract:** Read `docs/contracts/ARBITRAGESWAP_V2_FINAL_SUMMARY.md`
 
 ---
 
